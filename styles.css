@@ -1,0 +1,49 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: cornflowerblue;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients-list {
+    border-right: 0.5px solid lightgray;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; 
+}
+
+.recipe {
+    height: 100%;
+    width: 40%;
+}
+
+.ingredient {
+    background-color: black;
+    color: white;
+    min-width: 200px;
+    min-height: 200px;
+    font-size: 2em;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.recipe > span,
+.ingredients-list > span {
+    font-size: 2em;
+}
+
